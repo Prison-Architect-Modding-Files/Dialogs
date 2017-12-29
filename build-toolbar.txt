@@ -1,0 +1,23 @@
+BEGIN Window
+    NAME         BuildToolbar
+    WIDTH        400
+    HEIGHT       70
+    PANEL        1
+END
+
+BEGIN IconBox
+    NAME        IconBox
+    XPOS        Absolute        0
+    YPOS        Absolute        0
+    WIDTH       Relative        0
+    HEIGHT      Relative        0
+END
+
+BEGIN InputField
+    NAME        Search
+    XPOS        Relative        -400
+    YPOS        Relative        -25
+    WIDTH       Relative        0
+    HEIGHT      Relative        -50
+END
+

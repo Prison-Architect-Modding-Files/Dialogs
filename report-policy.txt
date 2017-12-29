@@ -1,0 +1,149 @@
+BEGIN Window
+    NAME         Reports
+    BACKGROUND   clipboard.png
+    WIDTH        450
+    HEIGHT       600
+    PANEL        1
+END
+
+BEGIN Button
+    NAME        Close
+    CAPTION     X
+    XPOS        Scaled          9098
+    YPOS        Scaled          443
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Scaled          1125
+    YPOS        Scaled          580
+    WIDTH       Scaled          7666
+    HEIGHT      Scaled          833
+END
+
+BEGIN SelectionList
+    NAME        List
+    XPOS        Scaled          1221
+    YPOS        Scaled          1832
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          4500
+END
+
+BEGIN DropDownMenu
+    NAME        DropDown
+    XPOS        Absolute        45
+    YPOS        Absolute        90
+    WIDTH       Absolute        125
+    HEIGHT      Absolute        20
+END
+
+BEGIN DropDownMenu
+    NAME        MealQuantity
+    XPOS        Scaled          3442
+    YPOS        Scaled          6997
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN DropDownMenu
+    NAME        MealVariety
+    XPOS        Scaled          3442
+    YPOS        Scaled          7413
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Caption
+    CAPTION     meal_quantity
+    XPOS        Scaled          1219
+    YPOS        Scaled          6998
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Caption
+    CAPTION     meal_variety
+    XPOS        Scaled          1219
+    YPOS        Scaled          7411
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Caption
+    CAPTION     meal_cost
+    XPOS        Scaled          6664
+    YPOS        Scaled          6914
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        MealCost
+    XPOS        Scaled          6664
+    YPOS        Scaled          7248
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        TotalMealCost
+    XPOS        Scaled          6664
+    YPOS        Scaled          7582
+    WIDTH       Scaled          2110
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        FoodTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          6499
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        ParoleTitle
+    XPOS        Scaled          1221
+    YPOS        Scaled          7998
+    WIDTH       Scaled          7555
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        Parole_Info
+    XPOS        Scaled          1221
+    YPOS        Scaled          8416
+    WIDTH       Scaled          3444
+    HEIGHT      Scaled          332
+END
+
+BEGIN InputSlider
+    NAME        ParoleSlider
+    XPOS        Scaled          4666
+    YPOS        Scaled          8416
+    WIDTH       Scaled          4111
+    HEIGHT      Scaled          332
+END
+
+BEGIN Custom
+    NAME        QualityCaption
+    CAPTION     policy_cell_quality
+    XPOS        Scaled          1221
+    YPOS        Scaled          8916
+    WIDTH       Scaled          2555
+    HEIGHT      Scaled          333
+END
+
+BEGIN CheckBox
+    NAME        UseCellQuality
+    XPOS        Scaled          4665
+    YPOS        Scaled          8916
+    WIDTH       Scaled          444
+    HEIGHT      Scaled          333
+END
+
